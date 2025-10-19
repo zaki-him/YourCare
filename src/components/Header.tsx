@@ -15,6 +15,10 @@ const Header: React.FC = () => {
       name: "Services",
       link: "#services"
     },
+    {
+      name: "Contact us",
+      link: "#contact"
+    },
   ]
   return (
     <header className='flex items-center py-3 px-6 justify-between bg-white rounded-full shadow-xl'>
@@ -34,7 +38,7 @@ const Header: React.FC = () => {
 
       <div className='flex items-center gap-5 max-md:hidden'>
         <button className='cursor-pointer'>Login</button>
-        <button className='rounded-3xl py-3 px-4 bg-blue-500 text-white cursor-pointer'>Sign Up</button>
+        <button className='rounded-3xl py-3 px-4 background text-white cursor-pointer'>Sign Up</button>
       </div>
 
       <Menu className='size-7 md:hidden cursor-pointer'/>
