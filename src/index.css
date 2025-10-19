@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body{
-  @apply bg-gray-200 py-6 px-8
+  @apply bg-gray-200
 }
 
 .background{

@@ -21,7 +21,7 @@ const Header: React.FC = () => {
     },
   ]
   return (
-    <header className='flex items-center py-3 px-6 justify-between bg-white rounded-full shadow-xl'>
+    <header className='flex items-center mt-6 py-3 px-6 mx-8 justify-between bg-white rounded-full shadow-xl'>
       <a href="#">
         <h1 className='text-xl md:text-2xl font-semibold'>YourCare</h1>
       </a>
