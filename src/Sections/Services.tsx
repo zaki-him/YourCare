@@ -14,7 +14,6 @@ const Services: React.FC = () => {
       title: 'Health Monitoring Program',
       description: 'We offer a continuous health monitoring program that keeps you in tune with your well-being, providing real-time insights.',
       featured: true,
-      bgColor: 'bg-blue-600'
     },
     {
       id: 2,
@@ -26,7 +25,6 @@ const Services: React.FC = () => {
       title: 'Integrated Care Plan',
       description: 'Care plans specifically designed to help you achieve long-term health goals with personalized guidance.',
       featured: false,
-      bgColor: 'bg-blue-500'
     },
     {
       id: 3,
@@ -38,7 +36,6 @@ const Services: React.FC = () => {
       title: 'Preventive Health Services',
       description: 'Focused on disease prevention with regular health screenings, vaccinations, and wellness education programs.',
       featured: false,
-      bgColor: 'bg-blue-500'
     },
     {
       id: 4,
@@ -50,7 +47,6 @@ const Services: React.FC = () => {
       title: 'Holistic Health Management',
       description: 'A comprehensive includes nutrition counseling, stress management, fitness therapies, and health coaching.',
       featured: false,
-      bgColor: 'bg-white'
     },
     {
       id: 5,
@@ -62,7 +58,6 @@ const Services: React.FC = () => {
       title: 'Recovery Center',
       description: 'This service offers rehabilitation programs designed to help individuals recover from illness or injury.',
       featured: false,
-      bgColor: 'bg-white'
     },
     {
       id: 6,
@@ -74,12 +69,11 @@ const Services: React.FC = () => {
       title: 'Telemedicine Consultation',
       description: 'Telemedicine services that allow you to consult with healthcare professionals from anywhere.',
       featured: false,
-      bgColor: 'bg-white'
     }
   ]
 
   return (
-    <section className='py-16 md:py-20 lg:py-24 px-4 sm:px-6 md:px-8 lg:px-12 bg-gray-50'>
+    <section id='services' className='py-16 md:py-20 lg:py-24 px-4 sm:px-6 md:px-8 lg:px-12 bg-gray-50'>
       <div className='max-w-7xl mx-auto'>
         {/* Section Header */}
         <div className='text-center mb-12 md:mb-16'>

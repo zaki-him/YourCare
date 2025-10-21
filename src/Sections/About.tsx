@@ -32,7 +32,7 @@ const About: React.FC = () => {
         </div>
         
         <div className="flex flex-col gap-6 md:gap-8 lg:gap-10 w-full lg:w-1/2">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl max-w-2xl font-semibold leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl max-w-2xl font-bold leading-tight">
             Our services are designed to provide the best healthcare services.
           </h2>
           <p className="max-w-2xl text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed">

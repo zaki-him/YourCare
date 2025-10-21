@@ -3,6 +3,8 @@ import Header from './components/Header'
 import Hero from './Sections/Hero'
 import About from './Sections/About'
 import Services from './Sections/Services'
+import Contact from './Sections/Contact'
+import { Toaster } from 'react-hot-toast'
 
 const App: React.FC = () => {
   return (
@@ -11,6 +13,8 @@ const App: React.FC = () => {
       <Hero />
       <About/>
       <Services />
+      <Contact />
+      <Toaster />
     </>
   )
 }

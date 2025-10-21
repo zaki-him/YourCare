@@ -6,7 +6,6 @@ interface Service{
   description: string,
   icon: React.ReactNode
   featured: boolean,
-  bgColor: string
 }
 
 interface ServiceProps {
